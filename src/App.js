@@ -1,7 +1,19 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
+
+
+  const toggleMenu = ()=> {
+    setIsOpen((prev)=> !prev);
+  };
+
+  const toggleTheme = ()=> {
+    setDarkMode((prev)=> !prev);
+  };  
   
   return (
     <div 
@@ -10,7 +22,18 @@ function App() {
     <div
     className='dark:bg-gradient-to-tr from-[#0235a3] via-[#030a1c] to-[#05174e]'
     >
-      Home 
+      <Navbar
+        darkMode={darkMode} 
+        isOpen={isOpen}
+        toggleMenu={toggleMenu}
+        toggleTheme={toggleTheme}
+      /> 
+      <section
+        id="home"
+        className="px-0 lg:px-5 2xl:px-40 py-10 lg:py-0"        
+      >
+        <Header/>
+      </section>
     </div>
     </div>
   );
