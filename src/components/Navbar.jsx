@@ -16,7 +16,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           </a>
           <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
             <li className="cursor-pointer hover:text-blue-500">
-              <a href="#home">HOME</a>
+              <a href="#home">Home</a>
             </li>
             <li className="cursor-pointer hover:text-blue-500">
               <a href="#about">About</a>
