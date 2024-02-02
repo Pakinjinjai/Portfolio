@@ -40,7 +40,7 @@ function App() {
       </section>
       <section 
       id="project"
-      className='w-full bg-[#061130] py-20 '>
+      className='w-full dark:bg-[#061130] py-20 '>
         <Project/>
       </section>
       <section
