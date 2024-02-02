@@ -46,12 +46,12 @@ const Header = () => {
         </div>
       </div>
       {/* {IMG} */}
-      <div className="w-full flex-1 flex justify-center">
+      <div className="w-full flex-1 flex justify-center ease-in-out duration-300 hover:scale-125">
         <div className="w-[300px] h-[290px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px]  border rounded-full border-gray-600 dark:border-gray-200 relative  md:mt-20 lg:mt-0 flex items-center justify-center">
           <img
             src={Profile}
             alt="Profile"
-            className="w-auto h-full absolute -top-5 mf:-top-10"
+            className="w-auto h-full absolute -top-5 mf:-top-10 "
             data-aos="fade-down"
             data-aos-offset="200"
             data-aos-delay="50"
