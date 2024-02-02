@@ -65,18 +65,21 @@ const Skills = () => {
             <div
             className='mt-[10rem]'
             >
+                {/* Header */}
                 <h4
                 className='text-3xl font-bold text-black dark:text-white mb-14 text-center'
                 >
                     SoftSkill
                 </h4>
+                {/* Content-container */}
                 <div
                 className='flex flex-col md:flex-row gap-16 items-center justify-center'
                 >
+                    {/* Content_1 */}
                     <div
-                    className='flex flex-col bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0'
+                    className='flex flex-col text-white bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0'
                     >
-                        {softskills.slice(0,5).map((soft,index)=>(
+                        {softskills.slice(0,4).map((soft,index)=>(
                             <div
                             key={index + soft}
                             className='flex items-center gap-3 p-4'
@@ -88,10 +91,27 @@ const Skills = () => {
                             </div>
                         ))}
                     </div>
+                    {/* Content_2 */}
                     <div
-                    className='flex flex-col scale-110 bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0'
+                    className='flex flex-col scale-110 text-white bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0'
                     >
-                        {softskills.slice(5,10).map((s,index)=>(
+                        {softskills.slice(4,8).map((s,index)=>(
+                            <div
+                            key={index + s}
+                            className='flex items-center gap-3 p-4'
+                            >
+                                <BsCheck2All color='white' size={22} />
+                                <p>
+                                {s}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                    {/* Content_3 */}
+                    <div
+                    className='flex flex-col text-white  bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0'
+                    >
+                        {softskills.slice(8,12).map((s,index)=>(
                             <div
                             key={index + s}
                             className='flex items-center gap-3 p-4'

@@ -64,7 +64,7 @@ export const skills = [
   },
   {
     name: "NodeJs",
-    value: 96,
+    value: 90,
     icon: Nodejs,
   },
   {
@@ -74,22 +74,22 @@ export const skills = [
   },
   {
     name: "CSS3",
-    value: 58,
+    value: 50,
     icon: CSS3,
   },
   {
     name: "HTML5",
-    value: 80,
+    value: 85,
     icon: HTML5,
   },
   {
     name: "JavaScript",
-    value: 80,
+    value: 90,
     icon: Javascript,
   },
   {
     name: "Python",
-    value: 78,
+    value: 20,
     icon: Python,
   },
 ];
@@ -157,5 +157,7 @@ export const softskills = [
   "Accountability",
   "Problem solving",
   "Open-mindedness",
+  "Leadership",
+  "Maturity"
 ];
 
