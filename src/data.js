@@ -42,8 +42,8 @@ export const tools = [
     icon: Express,
   },
   {
-    name: "React",
-    icon: Reactjs,
+    name: "Vue",
+    icon: VueJs,
   },
   {
     name: "NodeJs",
