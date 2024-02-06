@@ -5,7 +5,6 @@ import {
   Javascript,
   Mongodb,
   Nodejs,
-  Python,
   Reactjs,
   admin,
   food,
@@ -14,7 +13,8 @@ import {
   port2,
   port3,
   social,
-  VueJs
+  VueJs,
+  TypeScript,
 } from "./assets";
 
 export const projectStats = [
@@ -54,17 +54,17 @@ export const tools = [
 export const skills = [
   {
     name: "ReactJs",
-    value: 70,
+    value: 60,
     icon: Reactjs,
   },
   {
     name: "VueJs",
-    value: 90,
+    value: 80,
     icon: VueJs,
   },
   {
     name: "NodeJs",
-    value: 90,
+    value: 70,
     icon: Nodejs,
   },
   {
@@ -84,13 +84,13 @@ export const skills = [
   },
   {
     name: "JavaScript",
-    value: 90,
+    value: 80,
     icon: Javascript,
   },
   {
-    name: "Python",
-    value: 20,
-    icon: Python,
+    name: "TypeScript",
+    value: 50,
+    icon: TypeScript,
   },
 ];
 

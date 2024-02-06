@@ -5,7 +5,14 @@ const Header = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-8 gap-10 2xl:gap-20 py-20">
         {/* Content */}
-      <div className="flex flex-col mb-20 lg:mb-0">
+      <div 
+        className="flex flex-col mb-20 lg:mb-0"
+        data-aos='fade-down'
+        data-aos-offset='100'
+        data-aos-delay='50'
+        data-aos-durations='1000'
+        data-aos-easing='ease-in-out'
+      >
         <span className="text-lg font-bold text-rose-700">
           FULL-STACK DEVELOPER
         </span>
@@ -38,7 +45,7 @@ const Header = () => {
           <button className="bg-orange-700 text-lg text-white font-semibold rounded-md py-3 px-5">
             Hire Me
           </button>
-          <a href="#project">
+          <a href="#projects">
             <button className="text-lg text-white fonnt-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]">
               Project
             </button>
@@ -55,7 +62,7 @@ const Header = () => {
             data-aos="fade-down"
             data-aos-offset="200"
             data-aos-delay="50"
-            data-aos-duration="500"
+            data-aos-duration="1000"
             data-aos-easing="ease-in-out"
           />
 

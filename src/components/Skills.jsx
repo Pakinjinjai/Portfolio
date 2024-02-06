@@ -17,6 +17,11 @@ const Skills = () => {
         {
             skills.map((sk,index)=> (
                 <div 
+                data-aos="zoom-in-down"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
                     key={index}
                     className='flex gap-4 shadow-lg py-2 px-6 bg-[#04133e]
                     rounded-full items-center hover:animate-bounce ease-in-out
@@ -52,6 +57,7 @@ const Skills = () => {
                         className='w-[200px] h-[10px] bg-slate-800 rounded-lg mb-1'
                         >
                             <div
+                            
                             className='bg-neutral-300 h-full rounded-lg' 
                             style={{ width: sk.value + "%" }}
                             >
@@ -74,6 +80,11 @@ const Skills = () => {
                 {/* Content-container */}
                 <div
                 className='flex flex-col md:flex-row gap-16 items-center justify-center'
+                data-aos="zoom-in-down"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
                 >
                     {/* Content_1 */}
                     <div
@@ -81,6 +92,7 @@ const Skills = () => {
                     >
                         {softskills.slice(0,4).map((soft,index)=>(
                             <div
+                            
                             key={index + soft}
                             className='flex items-center gap-3 p-4'
                             >

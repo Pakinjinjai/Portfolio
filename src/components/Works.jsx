@@ -17,6 +17,11 @@ const Works = () => {
         {
             projects.map((p,index)=>(
                 <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
                 key={index}
                 className='w-[350px] h-[350px] cursor-pointer shadow-xl 
                 hover:scale-110 ease-in-out duration-300 rounded-md'

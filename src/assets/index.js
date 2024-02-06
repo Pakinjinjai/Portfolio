@@ -24,3 +24,4 @@ export { default as social } from "./work/social.png";
 
 export { default as Profile } from "./profile.png";
 export { default as VueJs } from "./vuejs.svg";
+export { default as TypeScript } from "./typescript.svg";
