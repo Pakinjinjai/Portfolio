@@ -13,6 +13,11 @@ const About = () => {
     >
         <div
         className='w-full md:h-[290px] lg:w-1/3 flex flex-col items-center border border-gray-500 dark:bg-transparent rounded-md'
+        data-aos="zoom-in-down"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
         >
             <img 
             src={Profile} 
@@ -23,6 +28,11 @@ const About = () => {
 
         <div
         className='w-full flex flex-col '
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
         >
             <p 
             className='text-3xl font-bold text-black dark:text-white'
@@ -46,35 +56,35 @@ const About = () => {
             data-aos-easing="ease-in-out"
             >
                 <p
-                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'
+                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer hover:scale-125 ease-in-out duration-500'
                 >
                     <FaUserAlt
                     size={24}
                     />Pakin jinjai
                 </p>
                 <p
-                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'
+                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer hover:scale-125 ease-in-out duration-500'
                 >
                     <MdEmail
                     size={24}
                     />pakin.281244@gmail.com
                 </p>
                 <p
-                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'
+                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer hover:scale-125 ease-in-out duration-500'
                 >
                     <CgPhone
                     size={24}
                     />++66 652358039
                 </p>
                 <p
-                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'
+                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer hover:scale-125 ease-in-out duration-500'
                 >
                     <FaMapLocationDot
                     size={24}
                     />Nakhon si thammarat,TH
                 </p>
                 <p
-                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'
+                className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer hover:scale-125 ease-in-out duration-500'
                 >
                     <FaGithub
                     size={24}

@@ -8,7 +8,6 @@ import {
   Reactjs,
   admin,
   food,
-  food1,
   port1,
   port2,
   port3,
@@ -136,13 +135,6 @@ export const projects = [
     cat: "Web App",
     url: "",
     img: social,
-  },
-  {
-    id: 7,
-    title: "Eat Well App",
-    cat: "Mobile App",
-    url: "",
-    img: food1,
   },
 ];
 

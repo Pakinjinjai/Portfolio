@@ -12,7 +12,7 @@ const Works = () => {
         Project
       </h4>
       <div
-      className='flex flex-wrap gap-10 lg:gap-20 justify-center'
+      className='flex flex-wrap gap-10 lg:gap-20 justify-center '
       >
         {
             projects.map((p,index)=>(
@@ -24,12 +24,15 @@ const Works = () => {
                 data-aos-easing="ease-in-out"
                 key={index}
                 className='w-[350px] h-[350px] cursor-pointer shadow-xl 
-                hover:scale-110 ease-in-out duration-300 rounded-md'
+                hover:scale-125 ease-in-out duration-500 rounded-md'
                 >
+                  <div
+                  className='hover:scale-125 ease-in-out duration-500'
+                  >
                     <img 
                     src={p.img} 
                     alt={p.name}
-                    className='w-full h-[250px] object-cover rounded-t-lg'
+                    className='w-full h-[250px] object-cover rounded-t-lg '
                     />
                     <div
                     className='w-full h-[100px] bg-white dark:bg-[#04133e] rounded-b-lg'
@@ -44,6 +47,7 @@ const Works = () => {
                             { p.cat}
                         </p>
                     </div>
+                          </div>
                 </div>
             ))
         }

@@ -9,8 +9,8 @@ const Header = () => {
         className="flex flex-col mb-20 lg:mb-0"
         data-aos='fade-down'
         data-aos-offset='100'
-        data-aos-delay='50'
-        data-aos-durations='1000'
+        data-aos-delay='100'
+        data-aos-durations='1500'
         data-aos-easing='ease-in-out'
       >
         <span className="text-lg font-bold text-rose-700">

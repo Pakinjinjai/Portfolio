@@ -88,7 +88,7 @@ const Skills = () => {
                 >
                     {/* Content_1 */}
                     <div
-                    className='flex flex-col text-white bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0'
+                    className='flex flex-col text-white bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 cursor-pointer mb-10 md:mb-0'
                     >
                         {softskills.slice(0,4).map((soft,index)=>(
                             <div
@@ -105,7 +105,7 @@ const Skills = () => {
                     </div>
                     {/* Content_2 */}
                     <div
-                    className='flex flex-col scale-110 text-white bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0'
+                    className='flex flex-col scale-110 text-white bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 cursor-pointer mb-10 md:mb-0'
                     >
                         {softskills.slice(4,8).map((s,index)=>(
                             <div
@@ -121,7 +121,7 @@ const Skills = () => {
                     </div>
                     {/* Content_3 */}
                     <div
-                    className='flex flex-col text-white  bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0'
+                    className='flex flex-col text-white  bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 cursor-pointer mb-10 md:mb-0'
                     >
                         {softskills.slice(8,12).map((s,index)=>(
                             <div
