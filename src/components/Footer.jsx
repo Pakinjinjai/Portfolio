@@ -8,7 +8,7 @@ const Footer = () => {
 
       <div className="w-full flex flex-col md:flex-row py-20 px-8 md:px-10 gap-10 lg:gap-20 justify-between ">
         <p className="text-lg text-white font-semibold ">
-          Address Nakhon Si Thammarat, IN
+          Address Nakhon Si Thammarat,TH
         </p>
 
         <div className="flex flex-col md:flex-row text-md gap-5 md:gap-20 text-white ">
@@ -18,6 +18,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-5 text-md text-white ">
+          <h1 className="text-lg font-bold">Contact</h1>
           <p>pakin.281244@gmail.com</p>
           <p>+66 65 235 8039</p>
         </div>

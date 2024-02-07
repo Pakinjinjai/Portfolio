@@ -26,9 +26,6 @@ const Works = () => {
                 className='w-[350px] h-[350px] cursor-pointer shadow-xl 
                 hover:scale-125 ease-in-out duration-500 rounded-md'
                 >
-                  <div
-                  className='hover:scale-125 ease-in-out duration-500'
-                  >
                     <img 
                     src={p.img} 
                     alt={p.name}
@@ -48,7 +45,6 @@ const Works = () => {
                         </p>
                     </div>
                           </div>
-                </div>
             ))
         }
       </div>
