@@ -30,8 +30,8 @@ const Skills = () => {
                     <div
                     className='w-10 h-10'
                     >
-                        <img 
-                            src={sk.icon} 
+                        <img
+                            src={sk.icon}
                             alt=""
                             className='w-full h-full rounded-full'
                             />
@@ -42,7 +42,7 @@ const Skills = () => {
                         <div
                         className='flex items-center justify-between'
                         >
-                            <p 
+                            <p
                             className='text-md font-semibold text-white'
                             >
                             {sk.name}
@@ -57,8 +57,7 @@ const Skills = () => {
                         className='w-[200px] h-[10px] bg-slate-800 rounded-lg mb-1'
                         >
                             <div
-                            
-                            className='bg-neutral-300 h-full rounded-lg' 
+                            className='bg-neutral-300 h-full rounded-lg'
                             style={{ width: sk.value + "%" }}
                             >
                             </div>

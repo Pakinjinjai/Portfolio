@@ -10,8 +10,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
         <div className="flex items-center justify-between w-full ">
           <a
             href="/"
-            className="text-2xl font-bold text-blue-500 cursor-pointer"
-          >
+            className="text-2xl font-bold text-blue-500 cursor-pointer">
             My Profile
           </a>
           <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
@@ -38,8 +37,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               className=""
               aria-controls="online-menu"
               aria-expanded="false"
-              onClick={toggleMenu}
-            >
+              onClick={toggleMenu}>
               <BiMenu
                 size={26}
                 className={` ${
@@ -58,12 +56,10 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
         {/* Mobile Menu */}
         <div
           className={`${isOpen ? "block pt-4" : "hidden"} md:hidden`}
-          id="mobile-menu"
-        >
+          id="mobile-menu">
           <div
             className="flex flex-col gap-4 text-md
-            text-gray-700 dark:text-neutral-200"
-          >
+            text-gray-700 dark:text-neutral-200">
             <a href="#home" onClick={toggleMenu} className="cursor-pointer">
               Home
             </a>

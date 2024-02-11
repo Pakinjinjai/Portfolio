@@ -4,15 +4,14 @@ import { Mongodb, Nodejs, Profile, Reactjs, Redux } from "../assets";
 const Header = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-8 gap-10 2xl:gap-20 py-20">
-        {/* Content */}
-      <div 
+      {/* Content */}
+      <div
         className="flex flex-col mb-20 lg:mb-0"
-        data-aos='fade-down'
-        data-aos-offset='100'
-        data-aos-delay='100'
-        data-aos-durations='1500'
-        data-aos-easing='ease-in-out'
-      >
+        data-aos="fade-down"
+        data-aos-offset="100"
+        data-aos-delay="100"
+        data-aos-durations="1500"
+        data-aos-easing="ease-in-out">
         <span className="text-lg font-bold text-rose-700">
           FULL-STACK DEVELOPER
         </span>
@@ -23,8 +22,7 @@ const Header = () => {
           <div
             className="flex items-center justify-center
             text-white shadow-lg bg-blue-800 dark:bg-[#224cff10]
-            dark:text-[#224cff] rounded-full"
-          >
+            dark:text-[#224cff] rounded-full">
             <p className="text-3xl 2xl:text-5xl font-bold px-5 py-2 pb-2 text-center">
               Developer
             </p>
@@ -32,8 +30,7 @@ const Header = () => {
         </div>
         <h1
           className="text-5xl 2xl:text-7xl font-extrabold
-            text-black dark:text-neutral-100 tracking-wider"
-        >
+            text-black dark:text-neutral-100 tracking-wider">
           Pakin jinjai
         </h1>
         <p className="text-md text-black dark:text-gray-100 mt-5 2xl:mt-10">
@@ -46,7 +43,7 @@ const Header = () => {
             Hire Me
           </button>
           <a href="#projects">
-            <button className="text-lg text-white fonnt-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]">
+            <button className="text-lg text-white font-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]">
               Project
             </button>
           </a>
@@ -72,8 +69,7 @@ const Header = () => {
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
+            data-aos-easing="ease-in-out">
             <img
               src={Reactjs}
               alt="Reactjs Icon"
@@ -95,7 +91,7 @@ const Header = () => {
             <img
               src={Redux}
               alt="Redux Icon"
-              className="absolute bottom-5 right-3 md:buttom-10
+              className="absolute bottom-5 right-3 md:bottom-10
                 2xl:right-12 w-12 h-10 md:w-16 md:h-16"
             />
           </div>

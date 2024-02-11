@@ -30,17 +30,17 @@ const Footer = () => {
         <div className="flex gap-10 text-white text-2xl mb-10 ">
           <p>
             <a href="https://www.facebook.com/profile.php?id=100047043649470">
-            <BsFacebook className="hover:scale-125" />
+              <BsFacebook className="hover:scale-125" />
             </a>
           </p>
           <p>
             <a href="https://www.instagram.com/ppakinjj?igsh=a3Rzamdtemx4NGJ5&utm_source=qr">
-            <BsInstagram className="hover:scale-125" />
+              <BsInstagram className="hover:scale-125" />
             </a>
           </p>
           <p>
             <a href="https://www.linkedin.com/in/pakin-jinjai-0b17802b2/">
-            <BsLinkedin className="hover:scale-110" />
+              <BsLinkedin className="hover:scale-110" />
             </a>
           </p>
         </div>
